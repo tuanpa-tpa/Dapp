@@ -9,6 +9,7 @@ async function main() {
 
     const Transactions = await ethers.getContractFactory("Transactions");
     const transactions = await Transactions.deploy();
+    Config.setConfig(network + '.Transactions', transactions.address);
     console.log('Transactions address: ', transactions.address);
     await Config.updateConfig();
 }
