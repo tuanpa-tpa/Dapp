@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^6.1.0",
+    "hardhat": "^2.13.0"
+  }
 }
